@@ -3,7 +3,7 @@ from docx import Document
 def extract_menu_from_word(doc_path):
     doc = Document(doc_path)
 
-    menu_items = []
+    menu_items = [testing page]
 
     for paragraph in doc.paragraphs:
         # Implement your logic to extract relevant information
